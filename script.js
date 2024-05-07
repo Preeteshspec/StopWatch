@@ -43,18 +43,6 @@ function Timer()
 function Stop(){
         isStop = true;
         clearTimeout(timer);
-        // if(s<10){
-        //     s = "0" + s;
-        // }
-        // if(min<10){
-        //     min = "0" + min;
-        // }
-        // if(hr<10){
-        //     hr = "0" + hr;
-        // }
-
-        // stopwatch.innerHTML = hr + " : " + min + " : " + s;
-
 }
 
 function Reset(){
